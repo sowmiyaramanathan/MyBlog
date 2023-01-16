@@ -1,0 +1,40 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(169, 139, 253);
+}
+/* homepage */
+.navBar {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.welcomeMessage {
+    align-items: center;
+    color: burlywood;
+}
+
+/* signinpage */
+.blogForm {
+    display: flex;
+    margin: 64px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.blogContent, .blogTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.blogContentInp, .blogTitleInp {
+    width: 1000px;
+}
+
+.blogContentInp {
+    height: 800px;
+}

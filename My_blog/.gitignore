@@ -1,0 +1,8 @@
+/backend/blogDB
+/backend/__pycache__
+/backend/middleware
+/backend/.env
+/env
+/test.py
+/.env
+/.vscode
