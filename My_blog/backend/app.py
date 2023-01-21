@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from flask_cors import CORS, cross_origin
+# from flask_cors import CORS, cross_origin
 from models import User, Post
 import jwt, os
 from auth_middleware import token_required
@@ -12,7 +12,7 @@ now = datetime.now()
 load_dotenv()
 
 app = Flask(__name__)
-cors = CORS(app)
+# cors = CORS(app)
 app.config['CORS_HEADERS' ] = 'Content-Type'
 
 SECRET_KEY = os.environ.get('SECRET_KEY')
